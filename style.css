@@ -67,6 +67,7 @@ section.imagem001{
     color: #fff;
     
     background-attachment: fixed;
+    text-shadow: 1px 2px 1px black;
     
 }
 section.imagem002{
@@ -76,7 +77,8 @@ section.imagem002{
     color: #fff;
     
     background-attachment: fixed;
-    box-shadow: inset 2px 2px 1px black;
+    
+    text-shadow: 1px 2px 1px black;
     
 }
 footer{
