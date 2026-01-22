@@ -25,7 +25,7 @@ header {
 
 header h1 {
     font-family: var(--fonte-titulo);
-    font-size: 60px;
+    font-size: 10vw;
     font-weight: 900;
 }
 
@@ -39,65 +39,54 @@ header a {
     font-weight: bold;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
-
 section {
-    padding: 10vh 0;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte-texto);
-    font-size: 3.5vw;
+    
 }
-
-section.normal {
-    background-color: #fff;
-    color: #000;
-}
-
-section.imagem001{
-    background-image: url('imagens/background001.jpg');
-    background-color: #51586e;
-    color: #fff;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right center;
-}
-
-section.imagem002{
-    background-image: url('imagens/background002.jpg');
-    background-color: #51586e;
-    color: #fff;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right center;
-}
-
-section.imagem > p {
+section.imagem001 > p{
     display: inline-block;
-    padding: 10px 15px;
-    background-color: rgba(0, 0, 0, 0.7);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    background-color: #0000004b;
 }
-
-footer {
+section.imagem002 > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: #0000004b;
+}
+section.imagem001{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    color: #fff;
+    
+    background-attachment: fixed;
+    
+}
+section.imagem002{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    color: #fff;
+    
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 1px black;
+    
+}
+footer{
+    padding: 10px;
     background-color: #000;
-    color: #fff;
     text-align: center;
-    padding: 20px 0;
+    color:#f0f0f0
+   
 }
-
-footer p {
-    font-size: 18px;
-}
-
-footer a {
-    color: #fff;
+footer a{
+    color: #f0f0f0;
     text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
